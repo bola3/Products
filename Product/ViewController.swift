@@ -21,7 +21,7 @@ class ViewController: UIViewController , UICollectionViewDataSource, UICollectio
         
         if Connection.isConnectedToNetwork() == true {
             // connection OK .
-            
+
             self.getProducts(url: "http://grapesnberries.getsandbox.com/products?count=10&from=1") { (succeeded: Bool, msg: String) -> () in
                 println("happen error")
             }

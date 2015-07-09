@@ -15,7 +15,7 @@
 		83D1E71E1B45F02900FC7308 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D1E71C1B45F02900FC7308 /* LaunchScreen.xib */; };
 		83D1E72A1B45F02900FC7308 /* ProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E7291B45F02900FC7308 /* ProductTests.swift */; };
 		83D1E7341B45F12500FC7308 /* cellCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E7331B45F12500FC7308 /* cellCollectionView.swift */; };
-		83F088B71B4AD11600FDAFEA /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F088B61B4AD11600FDAFEA /* Connection.swift */; };
+		83EEA08B1B4F063F004C304E /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEA08A1B4F063F004C304E /* Connection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		83D1E7281B45F02900FC7308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83D1E7291B45F02900FC7308 /* ProductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTests.swift; sourceTree = "<group>"; };
 		83D1E7331B45F12500FC7308 /* cellCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellCollectionView.swift; sourceTree = "<group>"; };
-		83F088B61B4AD11600FDAFEA /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = "../../../Imperial Creation/Siruis/Siruis/Connection.swift"; sourceTree = "<group>"; };
+		83EEA08A1B4F063F004C304E /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				83D1E7101B45F02900FC7308 /* AppDelegate.swift */,
-				83F088B61B4AD11600FDAFEA /* Connection.swift */,
 				83D1E7151B45F02900FC7308 /* ViewController.swift */,
 				83D1E7331B45F12500FC7308 /* cellCollectionView.swift */,
+				83EEA08A1B4F063F004C304E /* Connection.swift */,
 				83D1E7171B45F02900FC7308 /* Main.storyboard */,
 				83D1E71A1B45F02900FC7308 /* Images.xcassets */,
 				83D1E71C1B45F02900FC7308 /* LaunchScreen.xib */,
@@ -223,7 +223,7 @@
 			files = (
 				83D1E7161B45F02900FC7308 /* ViewController.swift in Sources */,
 				83D1E7111B45F02900FC7308 /* AppDelegate.swift in Sources */,
-				83F088B71B4AD11600FDAFEA /* Connection.swift in Sources */,
+				83EEA08B1B4F063F004C304E /* Connection.swift in Sources */,
 				83D1E7341B45F12500FC7308 /* cellCollectionView.swift in Sources */,
 				83D1E7141B45F02900FC7308 /* Product.xcdatamodeld in Sources */,
 			);
